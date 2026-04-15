@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import DefaultInput from './components/DefaultInput';
 import DefaultButton from './components/DefaultButton';
-
-// 1. Importe as imagens (ajuste o caminho se necessário)
 import imgGoogle from './assets/google.png';
 import imgFacebook from './assets/facebook.png';
 import imgApple from './assets/apple.png';
@@ -16,7 +14,6 @@ function App() {
     alert(`Sucesso! O nome enviado foi: ${usuario}`);
   };
 
-  // Criamos um array com as imagens para facilitar o mapeamento
   const socialLogos = [imgGoogle, imgFacebook, imgApple];
 
   return (
